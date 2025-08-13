@@ -43,7 +43,7 @@ Make sure to mount the dataset directories properly:
 docker run --gpus all -it \
   -v $(pwd):/home/time4count/ \
   --name time_for_count \
-  -p 10005:10005
+  -p 10005:10005 \
   wifi_people_counter bash
 ```
 
