@@ -1,0 +1,37 @@
+# ── Python ───────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+venv/
+.venv/
+env/
+.env/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# ── Hugging Face / Transformers ─────────────────────
+.cache/
+.huggingface/
+datasets_cache/
+.dm/
+*.bin
+*.pt
+checkpoint-*/
+
+# ── Logs & Outputs ───────────────────────────────────
+*.log
+runs/
+tensorboard/
+outputs/
+predictions/
+
+# ── Secrets ─────────────────────────────────────────
+*.token
+*.secret
