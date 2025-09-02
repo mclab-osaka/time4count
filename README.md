@@ -10,9 +10,9 @@ This project introduces a novel approach to indoor people counting by leveraging
 
 ## 📁 Directory Structure
 ```
-. ├── Dockerfile # Container definition with CUDA support 
-  ├── multilabel_classification_pipeline.ipynb # Main training script 
-  ├── sample_data.csv  # CSV-based training/test data 
+. ├── Dockerfile # Container definition with CUDA support
+  ├── multilabel_classification_pipeline.ipynb # Main training script
+  ├── sample_data.csv  # CSV-based training/test data
   ├── requirements.txt # Python Packages
   └── README.md
 ```
@@ -45,7 +45,7 @@ Make sure to mount the dataset directories properly:
 docker run --gpus all -it \
   -v $(pwd):/home/time4count/ \
   --name time_for_count \
-  -p 10005:10005 \
+  -p 10005:10005
   wifi_people_counter bash
 ```
 
@@ -68,9 +68,9 @@ A custom **position-aware weighted cross-entropy loss** is used, which penalizes
 
 ## 📊 Evaluation Metrics
 
-- No Error Accuracy  
-- ±1 Count Error Rate  
-- ±2 Count Error Rate  
+- No Error Accuracy
+- ±1 Count Error Rate
+- ±2 Count Error Rate
 - ...
 
 ---
@@ -80,7 +80,7 @@ A custom **position-aware weighted cross-entropy loss** is used, which penalizes
 
 This repository is released under the **Academic Non-Commercial License (ANCL)**.
 
-You are free to use, modify, and redistribute this software **for academic research, educational, and personal study purposes only**.  
+You are free to use, modify, and redistribute this software **for academic research, educational, and personal study purposes only**.
 **Commercial use is strictly prohibited** without prior written permission from the copyright holders.
 
 When using this software in academic work, please cite the corresponding research paper:
