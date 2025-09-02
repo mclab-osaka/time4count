@@ -2,6 +2,8 @@
 
 This repository provides the full implementation and Docker environment for our journal paper "Round trip time meets transformers: high-fidelity human counting in cluttered environments" submitted to Springer journal(Neural Computing and Applications).
 
+[https://link.springer.com/article/10.1007/s00521-025-11540-8](https://link.springer.com/article/10.1007/s00521-025-11540-8)
+
 ## 📦 Overview
 
 This project introduces a novel approach to indoor people counting by leveraging multivariate time-series data collected from multiple access points using RTT. The neural architecture employs a Conv1D + Transformer and a position-aware weighted cross-entropy loss to improve counting accuracy with Multi-label classification.
@@ -83,7 +85,21 @@ You are free to use, modify, and redistribute this software **for academic resea
 
 When using this software in academic work, please cite the corresponding research paper:
 
-> update soon.
+```
+﻿@Article{Yonekura2025,
+author={Yonekura, Haruki
+and Rizk, Hamada
+and Yamaguchi, Hirozumi},
+title={Round trip time meets transformers: high-fidelity human counting in cluttered environments},
+journal={Neural Computing and Applications},
+year={2025},
+month={Aug},
+day={29},
+issn={1433-3058},
+doi={10.1007/s00521-025-11540-8},
+url={https://doi.org/10.1007/s00521-025-11540-8}
+}
+```
 
 The full license text can be found in the [LICENSE](./LICENSE) file.
 
